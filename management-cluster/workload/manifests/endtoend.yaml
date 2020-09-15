@@ -39,7 +39,7 @@ spec:
       key: value
   fetch:
   - git:
-      url: https://github.com/eshansk16/cluster-api-gitops
+      url: https://github.com/eshanks16/cluster-api-gitops
       ref: origin/default
       subPath: management-cluster/deploy/kapp-controller/manifests
       secretRef:
