@@ -17,13 +17,13 @@ kubeadmConfigSpec:
     imageRepository: registry.tkg.vmware.run
     imageTag: v1.6.7_vmware.1
 
-aws:
-  region: us-gov-east-1
-  sshKeyName: default
-  vpc:
-    id: "vpc-077617e1cf2cfb9ac"
-  ami:
-    id: "ami-0145f6283b9db2944"
+#aws:
+#  region: us-east-1
+#  sshKeyName: default
+#  vpc:
+#    id: "vpc-077617e1cf2cfb9ac"
+#  ami:
+#    id: "ami-0145f6283b9db2944"
 
 oidc:
   client_id: ""
